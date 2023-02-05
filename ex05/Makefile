@@ -6,11 +6,11 @@
 #    By: fkhan <fkhan@student.42abudhabi.ae>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/02/01 23:07:07 by fkhan             #+#    #+#              #
-#    Updated: 2023/02/05 18:53:19 by fkhan            ###   ########.fr        #
+#    Updated: 2023/02/05 19:10:27 by fkhan            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME		= main
+NAME		= harl
 	
 CC			= c++
 FLAGS		= -Wall -Wextra -Werror -std=c++98

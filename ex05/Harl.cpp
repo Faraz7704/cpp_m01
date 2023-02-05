@@ -6,7 +6,7 @@
 /*   By: fkhan <fkhan@student.42abudhabi.ae>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/05 18:50:24 by fkhan             #+#    #+#             */
-/*   Updated: 2023/02/05 18:51:51 by fkhan            ###   ########.fr       */
+/*   Updated: 2023/02/05 19:10:19 by fkhan            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ void    Harl::error( void )
     std::cout << "This is unacceptable! I want to speak to the manager now." << std::endl;
 }
 
-Harl::Harl(/* args */)
+Harl::Harl()
 {
 }
 

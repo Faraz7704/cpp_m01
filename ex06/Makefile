@@ -6,11 +6,11 @@
 #    By: fkhan <fkhan@student.42abudhabi.ae>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/02/01 23:07:07 by fkhan             #+#    #+#              #
-#    Updated: 2023/02/05 19:09:58 by fkhan            ###   ########.fr        #
+#    Updated: 2023/02/05 19:06:25 by fkhan            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME		= main
+NAME		= harlFilter
 	
 CC			= c++
 FLAGS		= -Wall -Wextra -Werror -std=c++98
@@ -18,11 +18,11 @@ RM			= rm -rf
 
 OBJDIR 		= .objects/
 
-FILES		= main Weapon HumanA HumanB
+FILES		= main Harl
 
 SRC			= $(FILES:=.cpp)
 OBJ			= $(addprefix $(OBJDIR), $(FILES:=.o))
-HEADER		= Weapon.hpp HumanA.hpp HumanB.hpp
+HEADER		= Harl.hpp
 
 all: $(NAME)
 

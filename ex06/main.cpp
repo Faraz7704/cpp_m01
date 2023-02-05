@@ -5,30 +5,22 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: fkhan <fkhan@student.42abudhabi.ae>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/02/05 15:46:03 by fkhan             #+#    #+#             */
-/*   Updated: 2023/02/05 19:07:49 by fkhan            ###   ########.fr       */
+/*   Created: 2023/02/05 18:48:48 by fkhan             #+#    #+#             */
+/*   Updated: 2023/02/05 19:11:03 by fkhan            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "HumanA.hpp"
-#include "HumanB.hpp"
+#include "Harl.hpp"
 
-int main(void)
+int main(int ac, char **av)
 {
-   {
-        Weapon club = Weapon("crude spiked club");
-        HumanA bob("Bob", club);
-        bob.attack();
-        club.setType("some other type of club");
-        bob.attack();
-    }
+    if (ac != 2)
     {
-        Weapon club = Weapon("crude spiked club");
-        HumanB jim("Jim");
-        jim.setWeapon(club);
-        jim.attack();
-        club.setType("some other type of club");
-        jim.attack();
+        return (std::cout << "Usage: ./harlFilter \"level\"\n", EXIT_FAILURE);
     }
-    return 0;
+    std::string input = av[1];
+    Harl        harl;
+    
+    harl.complain(input);
+    return EXIT_SUCCESS;
 }
