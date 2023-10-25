@@ -6,7 +6,7 @@
 /*   By: fkhan <fkhan@student.42abudhabi.ae>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/05 18:48:48 by fkhan             #+#    #+#             */
-/*   Updated: 2023/02/05 19:11:03 by fkhan            ###   ########.fr       */
+/*   Updated: 2023/10/25 14:55:57 by fkhan            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,11 +16,11 @@ int main(int ac, char **av)
 {
     if (ac != 2)
     {
-        return (std::cout << "Usage: ./harlFilter \"level\"\n", EXIT_FAILURE);
+        return (std::cout << "Usage: ./harlFilter \"level\"\n", 1);
     }
     std::string input = av[1];
     Harl        harl;
     
     harl.complain(input);
-    return EXIT_SUCCESS;
+    return 0;
 }

@@ -6,7 +6,7 @@
 /*   By: fkhan <fkhan@student.42abudhabi.ae>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/01 23:08:16 by fkhan             #+#    #+#             */
-/*   Updated: 2023/02/05 15:43:31 by fkhan            ###   ########.fr       */
+/*   Updated: 2023/10/25 13:17:32 by fkhan            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,5 +22,5 @@ int	main()
 	zombie->announce();
 	delete zombie;
 	randomChump("Faraz");
-	return (EXIT_SUCCESS);
+	return (0);
 }
